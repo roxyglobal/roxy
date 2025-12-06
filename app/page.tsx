@@ -1,7 +1,10 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <div style={{ padding: 40, fontSize: 24 }}>
-      RoxyCore is running.
+    <div className="space-y-4">
+      <h1 className="text-2xl font-semibold">Roxy Home</h1>
+      <p className="text-sm text-muted-foreground">
+        Welcome to Roxy Universe.
+      </p>
     </div>
   );
 }
